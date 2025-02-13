@@ -1,7 +1,6 @@
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const mysql = require("mysql");
 const querystring = require("querystring");
 const sql = require("./db/db");
 
