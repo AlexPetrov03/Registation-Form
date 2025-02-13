@@ -1,6 +1,6 @@
 # Използвани технологии
 
-Чист JavaScript, CSS и HTML.
+JavaScript, CSS и HTML.
 
 ---
 
