@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0">
+        <link rel="stylesheet" 
+        href="style.css" />
+        <title>Register</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Register</h1>
+            <form>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div>
+                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+                </div>
+                <div>
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                </div>
+                <div>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                    <div class="strength-container" id="strength-container"><div id="strength"></div></div>
+                <div>
+                    <input type="password" id="repeat-password" name="repeatpassword" placeholder="Repeat Password">
+                </div>
+                <div>
+                    <canvas id="canvas" width="200" height="70"></canvas>
+                    <input type="text" name="input" placeholder="Enter the text in the image" />
+                </div>
+                <div>
+                    <button type="submit" id="register">Register</button>
+                </div>
+                </form>
+                <p>Already have an account? <a href="login">Login</a></p>
+        </div>
+        <script type="text/javascript" src="register.js"></script>
+        <script type="text/javascript" src="captcha.js"></script>
+
+
+    </body>
+</html>
